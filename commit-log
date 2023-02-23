@@ -10,6 +10,10 @@ Added staring files:
     -about.html
     -faq.html
 
-added fonts into files
+added fonts into files and CSS
 
-Started top banner skeleton (html/css)
+Started top banner skeleton (HTML/CSS)
+    -Added Nav Bar
+    -Added placeholder image
+
+Added Tagline (HTML/CSS)
