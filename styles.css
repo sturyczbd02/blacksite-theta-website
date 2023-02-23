@@ -3,6 +3,11 @@
     src: url('/fonts/progress.ttf');
 }
 
+@font-face {
+    font-family: Terrasick;
+    src: url('/fonts/Terrasick.ttf');
+}
+
 /* Top Banner */
 .banner h1 {
     font-size: 1.6em;
