@@ -3,6 +3,11 @@
     src: url('/fonts/progress.ttf');
 }
 
+@font-face {
+    font-family: Terrasick;
+    src: url('/fonts/Terrasick.ttf');
+}
+
 /* Top Banner */
 .banner h1 {
     font-size: 1.6em;
@@ -12,7 +17,7 @@
   
   .top-banner > img{
     width: 100%;
-    max-height: 400px;
+    max-height: 600px;
     margin-left: auto;
     margin-right: auto;
     display: block;
