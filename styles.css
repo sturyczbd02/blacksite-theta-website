@@ -98,3 +98,10 @@ li a {
   font-size: 90px;
 }
 
+/* For the 3 ability cards */
+.card-title {
+  text-align:center;
+  font-family: Progression;
+  font-size: 30px;
+}
+
