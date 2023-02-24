@@ -86,7 +86,7 @@ li a {
 }
   
 /* Change the link color on hover */
-li a:hover {
+#nav-li a:hover {
   background-color: #710003;
   text-decoration: none;
   color: #d6e2d8;
