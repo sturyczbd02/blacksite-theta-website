@@ -105,3 +105,9 @@ li a {
   font-size: 30px;
 }
 
+/* Team Image */
+.teamimage > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
