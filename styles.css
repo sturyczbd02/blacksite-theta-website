@@ -1,11 +1,11 @@
 @font-face {
     font-family: Progression;
-    src: url(fonts/progress.ttf);
+    src: url(progress.ttf);
 }
 
 @font-face {
     font-family: Terrasick;
-    src: url(fonts/Terrasick.ttf);
+    src: url(terrasick.ttf);
 }
 
 body {
