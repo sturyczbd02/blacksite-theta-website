@@ -22,6 +22,27 @@ body {
   display: block;
 }
 
+/* Environment Panel*/
+#environment{
+  width: 100%;
+  padding: 30px;
+  background-color: #220003;
+}
+
+/* Area 1 Panel*/
+#area1{
+  width: 100%;
+  padding: 30px;
+  background-color: #220003;
+}
+
+/* Ability Cards Panel */
+#abilityCards{
+  width: 100%;
+  padding: 30px;
+  background-color: #220003;
+}
+
 /* Footer */
 footer {
   background-color: #220003;
