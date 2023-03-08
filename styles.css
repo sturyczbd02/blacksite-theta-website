@@ -169,14 +169,29 @@ li a {
   margin-right: auto;
 }
 
-
-#w-75, .card{
+.w-75{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-width:7px !important;
+  border-color:#4b0007 !important;
+  background-color: #fdf5e9 !important;
+}
+
+.border-dark {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width:7px !important;
 }
 
 .card-title2 {
   font-family: Progression;
   font-size: 30px;
+}
+
+.card-title3{
+  font-family: Progression;
+  font-size: 30px;
+  background-color: #fdf5e9
 }
