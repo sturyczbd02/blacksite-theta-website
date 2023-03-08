@@ -22,28 +22,55 @@ body {
   display: block;
 }
 
-/* Environment Panel*/
-/*Environement Image*/
-#environment{
-  width: 100%;
-  height: auto;
+.tile {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
   padding: 30px;
+  border: 1px solid black;
+  width: 100%;
   background-color: #220003;
 }
 
-#environment > img{
-  max-width: 100%;
+.left-image {
+  margin-right: 10px;
+  max-width: 45%;
   height: auto;
-  margin-left: 30px;
+}
+
+.right-text {
+  align-self: flex-start;
   float: right;
+  width: 60%;
+  color: white;
 }
 
-/* Area 1 Panel*/
-#area1{
-  width: 100%;
-  padding: 30px;
-  background-color: #220003;
+
+.right-image {
+  float: right;
+  margin-left: 10px;
+  max-width: 45%;
+  height: auto;
+  order: 2;
 }
+
+.left-text {
+  align-self: flex-start;
+  overflow: hidden;
+  order: 1;
+  flex-grow: 1;
+  color: white;
+}
+
+.left-text h3 {
+  margin-top: 0;
+}
+
+.left-text p {
+  margin-bottom: 0;
+}
+
+
 
 /* Ability Cards Panel */
 #abilityCards{
