@@ -23,6 +23,7 @@ body {
   display: block;
 }
 
+/* Content Tiles */
 .tile {
   display: flex;
   align-items: center;
@@ -79,10 +80,22 @@ body {
 }
 
 /* Image Gallery Panel */
-#slideshow{
+#slideShow{
   width: 100%;
   padding: 30px;
   background-color: #220003;
+}
+
+/* Image Gallery */
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel {
+  margin: 0 auto;
+  width: 70%;
+  height: auto;
 }
 
 /* Footer */
