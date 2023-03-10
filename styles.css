@@ -8,6 +8,11 @@
     src: url(terrasick.ttf);
 }
 
+@font-face {
+  font-family: CafeDeParisSans;
+  src: url(cafedeparissans.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -41,9 +46,18 @@ body {
 }
 
 .right-text {
-  align-self: flex-start;
-  float: right;
+  align-self: first baseline;
   width: 60%;
+  font-family: CafeDeParisSans;
+  font-size: 25px;
+  color: white;
+}
+
+.right-header{
+  align-self: flex-start;
+  width: 60%;
+  font-family: Progression;
+  font-size: 40px;
   color: white;
 }
 
@@ -61,6 +75,8 @@ body {
   overflow: hidden;
   order: 1;
   flex-grow: 1;
+  font-family: CafeDeParisSans;
+  font-size: 25px;
   color: white;
 }
 
@@ -128,6 +144,15 @@ footer a:hover {
   color: #ddd;
   text-decoration: none;
 }
+
+.footer-h{
+  font-family: Progression
+}
+
+.footer-p{
+  font-family: CafeDeParisSans;
+  font-size: 20px;
+}
   
 /* Nav */
 .nav-bar a{
@@ -179,6 +204,11 @@ li a {
   text-align:center;
   font-family: Progression;
   font-size: 30px;
+}
+
+.card-text{
+  font-family: CafeDeParisSans;
+  font-size: 20px;
 }
 
 /* Team Image */
