@@ -260,11 +260,14 @@ li a {
 /* Scrolling Effect */
 .parallax {
   position: relative;
-  height: 500px; /* Adjust this to the desired height */
+  height: 2000px; /* Adjust this to the desired height */
   width: 100%;
   background-image: url('images/background-image.png');
   background-size: cover;
   background-attachment: fixed;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0px;
 }
 
 .content {
@@ -277,8 +280,6 @@ li a {
   overflow: auto;
   transform: translateY(0%);
   transition: transform 0.4s ease-out;
+  padding: 0px;
 }
 
-.parallax:hover .content {
-  transform: translateY(-10%);
-}
