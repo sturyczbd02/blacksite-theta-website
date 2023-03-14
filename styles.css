@@ -13,10 +13,6 @@
   src: url(cafedeparissans.ttf);
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
 
 
 /* Top Banner */
@@ -235,6 +231,11 @@ li a {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+#aboutimage > img {
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .card-title2 {
