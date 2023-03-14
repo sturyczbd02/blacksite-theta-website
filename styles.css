@@ -233,7 +233,7 @@ li a {
     animation-fill-mode: forwards;
 }
 
-#aboutimage > img {
+#aboutimage {
   margin-top: 8px;
   margin-bottom: 8px;
 }
