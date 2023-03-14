@@ -1,3 +1,4 @@
+/* Fonts */
 @font-face {
     font-family: Progression;
     src: url(progress.ttf);
@@ -13,7 +14,51 @@
   src: url(cafedeparissans.ttf);
 }
 
+/* General */
+/* Nav */
+.nav-bar a{
+  color:white;
+  font-family: Progression;
+  font-size: 40px;
+}
+  
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #220003;
+  z-index: 100;
+}
+  
+li {
+  float: right;
+}
 
+#socials{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #d6e2d8;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+  
+/* Change the link color on hover */
+#nav-li a:hover {
+  background-color: #095771;
+  text-decoration: none;
+  color: #d6e2d8;
+}
+  
+#tagline , h1 {
+  font-family: Progression;
+  text-align: center;
+  font-size: 90px;
+}
 
 /* Top Banner */
 .top-banner > img{
@@ -24,6 +69,53 @@
   display: block;
 }
 
+/* Footer */
+footer {
+  background-color: #220003;
+  padding: 20px 0;
+  width: 100%;
+  font-size: 14px;
+  color: #fff;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  float: left;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-h{
+  font-family: Progression;
+  font-size: 40px;
+}
+
+.footer-p{
+  font-family: CafeDeParisSans;
+  font-size: 25px;
+}
+
+#icons{
+  font-size: 40px;
+  color: white;
+}
+
+/* Home */
 /* Content Tiles */
 .tile {
   display: flex;
@@ -91,6 +183,18 @@
   background-color: #220003;
 }
 
+/* For the 3 ability cards */
+.card-title {
+  text-align:center;
+  font-family: Progression;
+  font-size: 30px;
+}
+
+.card-text{
+  font-family: CafeDeParisSans;
+  font-size: 20px;
+}
+
 /* Image Gallery Panel */
 #slideShow{
   width: 100%;
@@ -110,108 +214,7 @@
   height: auto;
 }
 
-/* Footer */
-footer {
-  background-color: #220003;
-  padding: 20px 0;
-  width: 100%;
-  font-size: 14px;
-  color: #fff;
-}
-
-footer ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: left;
-  float: left;
-}
-
-footer ul li {
-  margin-bottom: 10px;
-}
-
-footer a {
-  color: #fff;
-  text-decoration: none;
-}
-
-footer a:hover {
-  color: #ddd;
-  text-decoration: none;
-}
-
-.footer-h{
-  font-family: Progression;
-  font-size: 40px;
-}
-
-.footer-p{
-  font-family: CafeDeParisSans;
-  font-size: 25px;
-}
-
-#icons{
-  font-size: 40px;
-  color: white;
-}
-  
-/* Nav */
-.nav-bar a{
-  color:white;
-  font-family: Progression;
-  font-size: 40px;
-}
-  
-.nav-bar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 10px;
-  overflow: hidden;
-  background-color: #220003;
-  z-index: 100;
-}
-  
-li {
-  float: right;
-}
-
-#socials{
-  float: left;
-}
-
-li a {
-  display: block;
-  color: #d6e2d8;
-  text-align: center;
-  padding: 10px 12px;
-  text-decoration: none;
-}
-  
-/* Change the link color on hover */
-#nav-li a:hover {
-  background-color: #710003;
-  text-decoration: none;
-  color: #d6e2d8;
-}
-  
-#tagline , h1 {
-  font-family: Progression;
-  text-align: center;
-  font-size: 90px;
-}
-
-/* For the 3 ability cards */
-.card-title {
-  text-align:center;
-  font-family: Progression;
-  font-size: 30px;
-}
-
-.card-text{
-  font-family: CafeDeParisSans;
-  font-size: 20px;
-}
+/* About */
 
 /* Team Image */
 .teamimage > img{
