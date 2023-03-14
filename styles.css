@@ -33,7 +33,7 @@ body {
   display: flex;
   align-items: center;
   overflow: hidden;
-  padding: 30px;
+  padding: 20px;
   border: 1px solid black;
   width: 100%;
   background-color: rgba(34, 0, 3, .5);
@@ -146,19 +146,25 @@ footer a:hover {
 }
 
 .footer-h{
-  font-family: Progression
+  font-family: Progression;
+  font-size: 40px;
 }
 
 .footer-p{
   font-family: CafeDeParisSans;
-  font-size: 20px;
+  font-size: 25px;
+}
+
+#icons{
+  font-size: 40px;
+  color: white;
 }
   
 /* Nav */
 .nav-bar a{
   color:white;
   font-family: Progression;
-  font-size: 35px;
+  font-size: 40px;
 }
   
 .nav-bar ul {
