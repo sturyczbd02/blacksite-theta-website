@@ -41,9 +41,8 @@ li {
 }
 
 #socials a:hover{
-  background-color: #095771;
   text-decoration: none;
-  color: white
+  color: #095771;
 }
 
 li a {
@@ -56,9 +55,8 @@ li a {
   
 /* Change the link color on hover */
 #nav-li a:hover {
-  background-color: #095771;
   text-decoration: none;
-  color: white;
+  color: #095771;
 }
   
 #tagline , h1 {
