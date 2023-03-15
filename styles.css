@@ -20,6 +20,7 @@
   color:white;
   font-family: Progression;
   font-size: 40px;
+  text-decoration: none;
 }
   
 .nav-bar ul {
@@ -39,6 +40,12 @@ li {
   float: left;
 }
 
+#socials a:hover{
+  background-color: #095771;
+  text-decoration: none;
+  color: white
+}
+
 li a {
   display: block;
   color: #d6e2d8;
@@ -51,7 +58,7 @@ li a {
 #nav-li a:hover {
   background-color: #095771;
   text-decoration: none;
-  color: #d6e2d8;
+  color: white;
 }
   
 #tagline , h1 {
