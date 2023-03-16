@@ -32,7 +32,7 @@
   z-index: 100;
 }
   
-li {
+.nav-bar li {
   float: right;
 }
 
@@ -45,7 +45,7 @@ li {
   color: #095771;
 }
 
-li a {
+.nav-bar li a {
   display: block;
   color: #d6e2d8;
   text-align: center;
@@ -134,25 +134,26 @@ footer a:hover {
 
 .left-image {
   margin-right: 10px;
-  max-width: 45%;
+  max-width: 100%;
   height: auto;
 }
 
 .right-text {
-  align-self: first baseline;
-  width: 60%;
+  width: 100%;
   font-family: CafeDeParisSans;
   font-size: 25px;
   color: white;
 }
 
 .right-header{
-  align-self: flex-start;
+  align-items: start;
+  margin: 0;
   width: 60%;
   font-family: Progression;
   font-size: 40px;
   color: white;
 }
+
 
 
 .right-image {
