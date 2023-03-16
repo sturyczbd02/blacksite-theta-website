@@ -47,7 +47,7 @@
 
 .nav-bar li a {
   display: block;
-  color: #d6e2d8;
+  color: white;
   text-align: center;
   padding: 10px 12px;
   text-decoration: none;
@@ -118,6 +118,10 @@ footer a:hover {
 
 #footer-i{
   font-size: 40px;
+}
+
+#footer-socials{
+  padding-left: 35px;
 }
 
 /* Home */
