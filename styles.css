@@ -259,13 +259,13 @@ footer a:hover {
 /* Scrolling Effect */
 .parallax {
   position: relative;
-  height: 2000px; /* Adjust this to the desired height */
+  min-height: 100%; /* Adjust this to the desired height */
   width: 100%;
+
+  background-repeat: no-repeat;
   background-image: url('images/background-image.png');
   background-size: cover;
   background-attachment: fixed;
-  overflow: hidden;
-  box-sizing: border-box;
   padding: 0px;
 }
 
