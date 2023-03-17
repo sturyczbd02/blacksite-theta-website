@@ -63,6 +63,7 @@
   font-family: Progression;
   text-align: center;
   font-size: 90px;
+  color: white;
 }
 
 /* Top Banner */
@@ -144,11 +145,13 @@ footer a:hover {
 #tile-h{
   font-family: Progression;
   font-size: 40px;
+  color: white;
 }
 
 #tile-p{
   font-family: CafeDeParisSans;
   font-size: 25px;
+  color: white;
 }
 
 /* Ability Cards Panel */
