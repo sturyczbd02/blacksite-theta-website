@@ -167,7 +167,7 @@ footer a:hover {
 
 .card-text{
   font-family: CafeDeParisSans;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 /* Image Gallery Panel */
@@ -224,9 +224,16 @@ footer a:hover {
   margin-bottom: 8px;
 }
 
-ul {
+.aboutdescript {
   font-family: CafeDeParisSans;
   text-align: left;
+  font-size: 25px;
+}
+
+.aboutnames {
+  font-family: CafeDeParisSans;
+  text-align: center;
+  font-size: 25px;
 }
 
 .card-title2 {
