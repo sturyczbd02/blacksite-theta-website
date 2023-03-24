@@ -192,6 +192,18 @@ footer a:hover {
   height: auto;
 }
 
+.carousel-control-prev-icon {
+  position: absolute;
+  left: -40px;
+  z-index: 1; 
+}
+
+.carousel-control-next-icon {
+  position: absolute;
+  right: -40px;
+  z-index: 1;
+}
+
 /* About */
 
 /* Team Image */
