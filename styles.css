@@ -201,6 +201,9 @@ footer a:hover {
   margin-right: auto;
   width: 1000px;
   height: auto;
+  animation: fadeInAnimation ease 1.2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .w-75{
@@ -208,18 +211,22 @@ footer a:hover {
   margin-left: auto;
   margin-right: auto;
   border-width:7px !important;
+  background-color: rgba(34, 0, 3, .7) !important;
   border-color:#4b0007 !important;
-  background-color: #fdf5e9 !important;
+  color:white;
 }
 
-.border-dark {
+.border-5 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-width:7px !important;
-    animation: fadeInAnimation ease 3s;
+    animation: fadeInAnimation ease 1.2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    background-color: rgba(34, 0, 3, .7) !important;
+    border-color:#4b0007 !important;
+    color:white;
 }
 
 #aboutimage {
