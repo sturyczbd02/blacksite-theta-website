@@ -42,7 +42,7 @@
 
 #socials a:hover{
   text-decoration: none;
-  color: #095771;
+  color: #DECD60;
 }
 
 .nav-bar li a {
@@ -56,7 +56,7 @@
 /* Change the link color on hover */
 #nav-li a:hover {
   text-decoration: none;
-  color: #095771;
+  color: #DECD60;
 }
   
 #tagline , h1 {
@@ -182,8 +182,8 @@ footer a:hover {
 
 /* Image Gallery */
 .carousel-inner img {
-  width: 100%;
-  height: auto;
+  max-width: 800px;
+  max-height: 1000px;
 }
 
 .carousel {
