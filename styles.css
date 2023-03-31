@@ -216,6 +216,10 @@ footer a:hover {
   animation: fadeInAnimation ease 1.2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  border: 7px solid;
+  border-width:10px !important;
+  background-color: rgba(34, 0, 3, .7) !important;
+  border-color:#4b0007 !important;
 }
 
 .w-75{
@@ -229,7 +233,6 @@ footer a:hover {
 }
 
 .border-5 {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     border-width:7px !important;
@@ -239,6 +242,7 @@ footer a:hover {
     background-color: rgba(34, 0, 3, .7) !important;
     border-color:#4b0007 !important;
     color:white;
+    max-width: 80%;
 }
 
 #aboutimage {
