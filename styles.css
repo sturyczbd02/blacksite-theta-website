@@ -230,6 +230,9 @@ footer a:hover {
   background-color: rgba(34, 0, 3, .7) !important;
   border-color:#4b0007 !important;
   color:white;
+  animation: fadeInAnimation ease 1.2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .border-5 {
