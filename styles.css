@@ -165,9 +165,30 @@ footer a:hover {
   transition: all 0.3s;
 }
 
+.card-img-top-left{
+  transition: all 0.3s;
+}
+
+.card-img-top-right{
+  transition: all 0.3s;
+}
+
 .card-img-top:hover{
   transform: scale(3);
   z-index: 2;
+  transform-origin: top center;
+}
+
+.card-img-top-left:hover{
+  transform: scale(3);
+  z-index: 2;
+  transform-origin: top left;
+}
+
+.card-img-top-right:hover{
+  transform: scale(3);
+  z-index: 2;
+  transform-origin: top right;
 }
 
 /* For the 3 ability cards */
