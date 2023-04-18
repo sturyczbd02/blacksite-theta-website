@@ -296,7 +296,8 @@ footer a:hover {
     background-color: rgba(34, 0, 3, .7) !important;
     border-color:#4b0007 !important;
     color:white;
-    max-width: 80%;
+    max-width: 800px;
+    max-height: 100%;
 }
 
 #aboutimage {
