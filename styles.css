@@ -165,12 +165,32 @@ footer a:hover {
   transition: all 0.3s;
 }
 
+.card-img-top-left{
+  transition: all 0.3s;
+}
+
+.card-img-top-right{
+  transition: all 0.3s;
+}
+
 .card-img-top:hover{
   transform: scale(3);
   z-index: 2;
+  transform-origin: top center;
 }
 
-/* For the 3 ability cards */
+.card-img-top-left:hover{
+  transform: scale(3);
+  z-index: 2;
+  transform-origin: top left;
+}
+
+.card-img-top-right:hover{
+  transform: scale(3);
+  z-index: 2;
+  transform-origin: top right;
+}
+
 .card-title {
   text-align:center;
   font-family: Progression;
@@ -180,6 +200,12 @@ footer a:hover {
 .card-text{
   font-family: CafeDeParisSans;
   font-size: 25px;
+}
+
+.card{
+  background-color: rgba(34, 0, 3, .7) !important;
+  border-color:#4b0007 !important;
+  color:white;
 }
 
 /* Image Gallery Panel */
@@ -247,7 +273,7 @@ footer a:hover {
   border-color:#4b0007 !important;
 }
 
-.w-75{
+.w-50{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -270,7 +296,8 @@ footer a:hover {
     background-color: rgba(34, 0, 3, .7) !important;
     border-color:#4b0007 !important;
     color:white;
-    max-width: 80%;
+    max-width: 800px;
+    max-height: 100%;
 }
 
 #aboutimage {
