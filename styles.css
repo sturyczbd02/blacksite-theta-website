@@ -140,6 +140,7 @@ footer a:hover {
 #tile-image{
   width: 100%;
   height: auto;
+  margin-top: 70px;
 }
 
 #tile-h{
