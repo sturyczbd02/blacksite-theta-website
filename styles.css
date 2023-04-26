@@ -148,17 +148,27 @@ footer a:hover {
   color: white;
 }
 
-#tile-h2{
-  font-family: Progression;
-  font-size: 50px;
-  color: white;
-
-}
-
 #tile-p{
   font-family: Ubuntu;
   font-size: 20px;
   color: white;
+}
+.carousel-tile {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 45px;
+  border: 1px solid black;
+  width: 100%;
+  background-color: rgba(34, 0, 3, .7);
+  text-align: center;
+}
+
+#carousel-h{
+  font-family: Progression;
+  font-size: 50px;
+  color: white;
+
 }
 
 /* Ability Cards Panel */
