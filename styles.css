@@ -10,7 +10,7 @@
 }
 
 @font-face {
-  font-family: ubuntu;
+  font-family: Ubuntu;
   src: url(ubuntu-regular.ttf);
 }
 
@@ -113,7 +113,7 @@ footer a:hover {
 }
 
 .footer-p{
-  font-family: ubuntu-regular;
+  font-family: Ubuntu;
   font-size: 25px;
 }
 
@@ -149,7 +149,7 @@ footer a:hover {
 }
 
 #tile-p{
-  font-family: ubuntu-regular;
+  font-family: Ubuntu;
   font-size: 25px;
   color: white;
 }
@@ -198,7 +198,7 @@ footer a:hover {
 }
 
 .card-text{
-  font-family: ubuntu-regular;
+  font-family: Ubuntu;
   font-size: 25px;
 }
 
@@ -244,7 +244,7 @@ footer a:hover {
   color: #fff;
   margin: 0;
   text-align: center;
-  font-family: ubuntu-regular;
+  font-family: Ubuntu;
 }
 
 .carousel-caption{
@@ -308,18 +308,18 @@ footer a:hover {
 }
 
 .aboutnames {
-  font-family: ubuntu-regular;
+  font-family: Ubuntu;
   text-align: center;
   font-size: 25px;
 }
 
 .card-title2 {
-  font-family: ubuntu-regular;
+  font-family: Ubuntu;
   font-size: 40px;
 }
 
 .card-title3{
-  font-family: ubuntu-regular;
+  font-family: Ubuntu;
   font-size: 30px;
   background-color: #fdf5e9
 }
