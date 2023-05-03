@@ -66,6 +66,14 @@
   color: white;
 }
 
+.tile > h2 {
+  font-family: Ubuntu;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding-left:450px;
+}
+
 /* Top Banner */
 .top-banner > img{
   width: 100%;
@@ -173,8 +181,8 @@ footer a:hover {
 
 .carousel.carousel-fade .carousel-item {
   display: block;
+  transition: opacity ease-out .8s;
   opacity: 0;
-  transition: opacity ease-out .7s;
 }
 
 .carousel.carousel-fade .carousel-item.active {
