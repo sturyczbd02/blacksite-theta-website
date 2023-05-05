@@ -136,7 +136,8 @@ footer a:hover {
 /* Home */
 /* Content Tiles */
 .tile {
-  display: flex;
+  position: relative;
+  display: inline-block;
   align-items: center;
   overflow: hidden;
   padding: 45px;
@@ -150,10 +151,50 @@ footer a:hover {
   height: auto;
 }
 
+.itch-tile {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 45px;
+  border: 1px solid black;
+  width: 100%;
+  background-color: rgba(34, 0, 3, .7);
+}
+
+#itch-img{
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  max-height: 390px;
+}
+
 #tile-h{
   font-family: Progression;
   font-size: 40px;
   color: white;
+}
+
+.tile-link {
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+  font-family: Progression;
+}
+
+.tile-link a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: none;
+}
+
+.tile-link:hover {
+  color: #DECD60;
 }
 
 #tile-p{
