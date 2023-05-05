@@ -36,6 +36,7 @@
   float: right;
 }
 
+
 #socials{
   float: left;
 }
@@ -52,11 +53,20 @@
   padding: 10px 12px;
   text-decoration: none;
 }
-  
+
 /* Change the link color on hover */
 #nav-li a:hover {
   text-decoration: none;
   color: #DECD60;
+}
+
+#nav-li-hidden a:hover {
+  text-decoration: none;
+  color: #DECD60;
+}
+
+#nav-li-hidden{
+  font-size: 0;
 }
   
 #tagline , h1 {
